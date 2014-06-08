@@ -29,7 +29,7 @@ public class SubActivity extends Activity {
         	Intent intent = new Intent();
         	intent.setAction(Intent.ACTION_VIEW);
         	intent.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
-        	intent.setData(Uri.parse("http://maps.google.com/maps?saddr="+lat+","+lon+"&daddr=“Œ‹“s•¶‹‹æ¬Îì‚T|‚V|‚P‚R&dirflg=r"));
+        	intent.setData(Uri.parse("http://maps.google.com/maps?saddr="+lat+","+lon+"&daddr=“Œ‹‰w&dirflg=r"));
         	startActivity(intent);
 	}
 
